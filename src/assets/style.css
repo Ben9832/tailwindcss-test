@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base {
+    :root {
+        --color-primary:  26 32 44;
+        --color-primary-dark: 48 63 159;
+        --color-primary-light: 121 138 252;
+        --color-secondary: 255 64 129;
+        --color-secondary-dark: 245 0 87;
+        --color-secondary-light: 255 121 176;
+        --color-background: 245 245 245;
+        --color-surface: 255 255 255;
+        --color-error: 176 0 32;
+    }
+
+    .dark {
+        --color-primary:  44 32 26;
+        --color-primary-dark: 159 63 48;
+        --color-primary-light: 252 138 121;
+        --color-secondary: 129 64 255;
+        --color-secondary-dark: 87 0 245;
+        --color-secondary-light: 176 121 255;
+        --color-background: 45 45 45;
+        --color-surface: 0 0 0;
+        --color-error: 32 0 176;
+    }
+}
